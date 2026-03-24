@@ -35,7 +35,10 @@ const Career = () => {
                 <h4>AI/ML & Cybersecurity intern</h4>
                 <h5>NIRVEONX</h5>
               </div>
-              <h3>2025</h3>
+              <div className="career-time" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', justifyContent: 'center' }}>
+                <h3>2025</h3>
+                <span style={{ fontSize: '14px', fontWeight: 300, color: 'var(--accentColor)', marginTop: '8px', letterSpacing: '1px' }}>Jul'25 - Sep'25</span>
+              </div>
             </div>
             <p>
               Led quality testing initiatives for AI/ML systems, ensuring model accuracy. Supported security compliance by identifying control gaps and aligning with ISO 27001 and NIST.
@@ -45,10 +48,13 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>SOC Analyst intern</h4>
+                <h4>Jr. SOC Analyst intern</h4>
                 <h5>NOIDA POWER COMPANY LIMITED</h5>
               </div>
-              <h3>2025</h3>
+              <div className="career-time" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', justifyContent: 'center' }}>
+                <h3>2025</h3>
+                <span style={{ fontSize: '14px', fontWeight: 300, color: 'var(--accentColor)', marginTop: '8px', letterSpacing: '1px' }}>Apr'25 - Jun'25</span>
+              </div>
             </div>
             <p>
               Monitored and analyzed security events using SIEM. Validated 40+ MDM use cases. Assisted in real-time monitoring and escalation of security incidents.
