@@ -117,7 +117,7 @@ const Career = () => {
                 <h4>Foundation of Cybersecurity</h4>
                 <h5>Coursera</h5>
               </div>
-              <h3>2024</h3>
+              <h3>2025</h3>
             </div>
             <p>
               • Gained foundational knowledge of cybersecurity principles, frameworks, and threat landscapes.<br/>
@@ -131,7 +131,7 @@ const Career = () => {
                 <h4>SQL Basic & Intermediate</h4>
                 <h5>HackerRank</h5>
               </div>
-              <h3>2024</h3>
+              <h3>2026</h3>
             </div>
             <p>
               • Validated expertise in writing complex SQL queries and performing advanced data extraction.<br/>
@@ -145,7 +145,7 @@ const Career = () => {
                 <h4>Cybersecurity Job Simulation</h4>
                 <h5>Forage</h5>
               </div>
-              <h3>2024</h3>
+              <h3>2025</h3>
             </div>
             <p>
               • Completed hands-on tasks simulating real-world Security Operations Center (SOC) responsibilities.<br/>
