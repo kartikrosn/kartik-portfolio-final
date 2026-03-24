@@ -106,23 +106,9 @@ const Career = () => {
 
         {/* Certifications Section */}
         <h3 style={{ fontSize: '40px', fontWeight: 400, color: 'var(--accentColor)', marginTop: '80px', marginBottom: '30px', textAlign: 'center' }}>Certifications</h3>
-        <div className="career-info">
+        <div className="career-info" style={{ paddingBottom: '80px' }}>
           <div className="career-timeline">
             <div className="career-dot"></div>
-          </div>
-          
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Foundation of Cybersecurity</h4>
-                <h5>Coursera</h5>
-              </div>
-              <h3>2025</h3>
-            </div>
-            <p>
-              • Gained foundational knowledge of cybersecurity principles, frameworks, and threat landscapes.<br/>
-              • Learned best practices for protecting networks, devices, and sensitive data.
-            </p>
           </div>
 
           <div className="career-info-box">
@@ -136,6 +122,20 @@ const Career = () => {
             <p>
               • Validated expertise in writing complex SQL queries and performing advanced data extraction.<br/>
               • Demonstrated strong relational database management skills.
+            </p>
+          </div>
+          
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Foundation of Cybersecurity</h4>
+                <h5>Coursera</h5>
+              </div>
+              <h3>2025</h3>
+            </div>
+            <p>
+              • Gained foundational knowledge of cybersecurity principles, frameworks, and threat landscapes.<br/>
+              • Learned best practices for protecting networks, devices, and sensitive data.
             </p>
           </div>
 
