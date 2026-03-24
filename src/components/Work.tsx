@@ -12,8 +12,8 @@ const projects = [
       "Developed a modern dashboard with dynamic charts to visually represent sales trends and product performance in real-time."
     ],
     tools: "Python, Django, HTML5, CSS, JS",
-    githubLink: "https://github.com/Kartikrosn/inventory-stock-analysis"
-
+    githubLink: "https://github.com/Kartikrosn/inventory-stock-analysis",
+    liveLink: "https://inventory-stock-analysis.onrender.com/"
   },
   {
     title: "Web Application Session Hijacking",
@@ -24,8 +24,8 @@ const projects = [
       "Designed interactive security dashboard with dynamic charts and exportable vulnerability reports with           remediation advice  for each detected security issue."
     ],
     tools: "Python, Flask, JavaScript, chart.js",
-    githubLink: "https://github.com/Kartikrosn/Web-session-security-scanner"
-
+    githubLink: "https://github.com/Kartikrosn/Web-session-security-scanner",
+    liveLink: ""
   },
   {
     title: "AI Yoga Posture Detection",
@@ -36,8 +36,8 @@ const projects = [
       "Optimised real-time pose detection to ensure accurate results with smooth performance and minimal delay."
     ],
     tools: "Python, Flask, HTML, OpenCV, MediaPipe",
-    githubLink: "https://github.com/Kartikrosn"
-
+    githubLink: "https://github.com/Kartikrosn",
+    liveLink: ""
   },
 ];
 
@@ -122,10 +122,17 @@ const Work = () => {
                           <span className="tools-label">Tools & Features</span>
                           <p>{project.tools}</p>
                         </div>
-                        <div style={{ marginTop: "24px" }}>
-                          <a href={project.githubLink} target="_blank" rel="noreferrer" style={{ display: 'inline-flex', padding: '10px 20px', border: '1px solid var(--accentColor)', borderRadius: '50px', color: 'var(--accentColor)', fontSize: '14px', alignItems: 'center', gap: '8px', textDecoration: 'none' }}>
-                            View on GitHub <MdArrowForward />
-                          </a>
+                        <div style={{ marginTop: "24px", display: "flex", gap: "16px", flexWrap: "wrap" }}>
+                          {project.liveLink && (
+                            <a href={project.liveLink} target="_blank" rel="noreferrer" style={{ display: 'inline-flex', padding: '10px 20px', backgroundColor: 'var(--accentColor)', border: '1px solid var(--accentColor)', borderRadius: '50px', color: '#111', fontSize: '14px', alignItems: 'center', gap: '8px', textDecoration: 'none', fontWeight: 600 }}>
+                              View Live <MdArrowForward />
+                            </a>
+                          )}
+                          {project.githubLink && (
+                            <a href={project.githubLink} target="_blank" rel="noreferrer" style={{ display: 'inline-flex', padding: '10px 20px', border: '1px solid var(--accentColor)', borderRadius: '50px', color: 'var(--accentColor)', fontSize: '14px', alignItems: 'center', gap: '8px', textDecoration: 'none' }}>
+                              View on GitHub <MdArrowForward />
+                            </a>
+                          )}
                         </div>
                       </div>
                     </div>

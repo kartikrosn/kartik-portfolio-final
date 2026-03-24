@@ -89,7 +89,7 @@ const WhatIDo = () => {
             <div className="what-content-in">
               <h3>SECURITY OPERATIONS</h3>
               <h4>Monitoring & Analysis</h4>
-              <ul style={{ textAlign: "left", paddingLeft: "15px", listStyleType: "disc", color: "#ccc", margin: "10px 0", display: "flex", flexDirection: "column", gap: "10px" }}>
+              <ul style={{ textAlign: "left", paddingLeft: "15px", listStyleType: "disc", color: "#ccc", margin: "8px 0", fontSize: "13px", lineHeight: "1.4", display: "flex", flexDirection: "column", gap: "6px" }}>
                 <li>Monitor and analyze security alerts using SIEM tools to detect potential threats and suspicious activities.</li>
                 <li>Investigate security incidents, perform root cause analysis, and support incident response activities.</li>
                 <li>Conduct vulnerability assessments and assist in identifying and mitigating security risks.</li>
@@ -119,7 +119,7 @@ const WhatIDo = () => {
             <div className="what-content-in">
               <h3>INCIDENT & COMPLIANCE</h3>
               <h4>Response & Security Testing</h4>
-              <ul style={{ textAlign: "left", paddingLeft: "15px", listStyleType: "disc", color: "#ccc", margin: "10px 0", display: "flex", flexDirection: "column", gap: "10px" }}>
+              <ul style={{ textAlign: "left", paddingLeft: "15px", listStyleType: "disc", color: "#ccc", margin: "8px 0", fontSize: "13px", lineHeight: "1.4", display: "flex", flexDirection: "column", gap: "6px" }}>
                 <li>Use tools like Nmap, Wireshark, Burp Suite, and Metasploit for security testing and analysis.</li>
                 <li>Prioritize and escalate security incidents based on severity and impact.</li>
                 <li>Support compliance and security best practices aligned with standards such as ISO 27001 and NIST.</li>
